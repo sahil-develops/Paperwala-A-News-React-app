@@ -1,3 +1,7 @@
+This is a news app made using react and news api to read daily news about tech,business,etc.
+It is only available in local environment coz I used the developers version of news api,
+feel free to message me here zambanisahil9@gmail.com for any feedback and suggestion.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
