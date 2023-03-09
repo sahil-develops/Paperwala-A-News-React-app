@@ -13,7 +13,7 @@ const [page, setPage] = useState(1)
 const [totalresults, setTotalresults] = useState(0)
 
 // document.title= `${this.capitalizeFirstLetter(props.category)} - PaperWala`
-
+// eslint-disable-next-line
  const capitalizeFirstLetter =(string)=>{
     return string.charAt(0).toUpperCase() + string.slice(1)
   }
@@ -74,7 +74,7 @@ setTotalresults(parsedData.totalresults)
 
     return (
       <div className="container my-3">
-        <h2 className="text-center" style={{margin:'35px 0px',marginTop:'90px'}}>Paperwala - Top  {`${capitalizeFirstLetter(props.category)}`} Headlines </h2>
+        <h2 className="text-center" style={{margin:'35px 0px',marginTop:'90px'}}>Paperwala - Top  {`${capitalizeFirstLetter(props.category)}` ? 'Foreign':''} Headlines </h2>
         {loading && <Spinner />}
         <InfiniteScroll
           dataLength={articles.length}

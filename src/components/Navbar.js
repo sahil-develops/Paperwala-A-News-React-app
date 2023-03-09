@@ -26,6 +26,7 @@ const Navbar = ()=>{
           <li className="nav-item"><Link className="nav-link" to="/science">Science</Link></li>
           <li className="nav-item"><Link className="nav-link" to="/sports">Sports</Link></li>
           <li className="nav-item"><Link className="nav-link" to="/technology">Technology  </Link></li>      
+          <li className="nav-item"><Link className="nav-link" to="/foreign">Foreign  </Link></li>      
       </ul>
 
     </div>
